@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+
+#b-boton::before{
+    content: 'Pasa por encima';
+    color: blue;
+    background-color: bisque;
+}
+
+#b-boton:hover::before{
+    background-color:  green; 
+    color: white;
+    content: 'Hecho!';
+}
